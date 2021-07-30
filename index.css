@@ -1,0 +1,281 @@
+.headerWidth{
+    width: 100vw;
+    background-color: #fecacf;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menuContainer{
+    display: grid;
+    height: 35px;
+    align-content: center;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    background-color: #b21625;
+    color: white;
+    width: 100vw;
+}
+
+/* 
+.servicesContainer{
+    display: grid;
+    height: 260px;
+    align-content: center;
+    grid-template-columns: auto auto auto auto;
+    width: 100vw;
+    margin-left: -8px;
+    font-size: 20px;
+}
+
+.serviceFirstItem{
+    font-size: 30px;
+    margin-left: 160px;
+}
+*/
+
+.imgLogo{
+    height: 130px;
+    width: 150px;
+}
+
+.imgLogo1{
+    height: 100px;
+    width: 110px;
+}
+
+
+.imgLogo2{
+    height: 100px;
+    width: 100px;
+    margin-left: -15px;
+}
+
+.forRowPadding{
+    margin-top: 25px;
+}
+
+.welcomeText{
+    font-size: 30px;
+    margin-left: 150px;    
+    margin-top: -120px;
+}
+
+.clevelandText{
+    font-size: 50;
+    font-weight: bold;
+    margin-left: 150px;  
+    margin-top: -25px;  
+}
+
+.forCenterAlign{
+    text-align: center;  
+}
+
+/*
+.serviceSecondItem{
+    text-align: center;
+    margin-left: 120px;
+}
+
+.serviceThirdItem{
+    text-align: center;
+    margin-left: -210px;
+}
+
+.serviceFourthItem{
+    text-align: center;
+    margin-left: -300px;
+} */
+
+.container-fluid{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.secondItem{
+    margin-left: -50px;
+}
+
+.newsHeadlineBox{
+    padding-left: 30px;
+}
+
+.headlineText{
+    color: #cd2a35;
+    font-weight: bold;
+}
+
+.subHeadlineDescription{
+    padding-left: 20px;
+}
+
+.upcomingEventText{
+    text-align: center;
+    color: #cd2a35;
+    font-weight: bold;
+}
+
+.horizontalLine{
+    border: 1px solid #cd2a35;
+    background-color: #cd2a35;    
+    width: 100%;
+}
+
+.toBringTheBulletsUp{
+    margin-top: -50px;
+}
+
+.checkPointInLine{
+    color: #cd2a35;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.eventBox{
+    height: 300px;
+    width: 100%;
+}
+
+.eventUpperBox{
+    content:url(Images/dummyImage.jpg);
+    height: 150px;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.eventLowerBox{    
+    height: 150px;
+    width: 100%;
+    padding-left: 5px;
+    background-color: #fecacf;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.roundcircle{
+    position: relative;
+    z-index: 2;
+    content:url(Images/circle.png);
+    height: 70px;
+    width: 70px;
+    float: right;
+    margin-right: 10px;
+    margin-top: -40px;
+    border-radius: 100px;
+}
+
+.textInsideCircle{
+    position: relative;
+    z-index: 3;
+    float: right;
+    margin-right: -60px;
+    margin-top: -30px;
+    color: black;
+}
+
+.eventDescription{
+    overflow-y: hidden;
+    height: 120px;
+}
+
+.moreInfoLink{
+    color: white;
+}
+
+.ExploreClevelandText{
+	color: #195a95;
+	text-align: center;
+	font-weight: 500;
+}
+
+
+.ExploreEventBox{
+	height: 350px;
+	width: 100%;
+}
+
+.ExploreEventUpperBox{
+    content:url(Images/dummyImage1.jpg);
+    height: 150px;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.ExploreOnImageText{
+	position: absolute;
+    z-index: 3;
+    float: center;
+    margin-left: 100px;
+    margin-top: -80px;
+    color: white;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.ExploreEventLowerBox{
+	height: 200px;
+    width: 100%;
+    padding-left: 5px;
+    background-color: #fecacf;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.ExploreRoundcircle{
+    position: relative;
+    z-index: 2;
+    content:url(Images/blueImage.png);
+    height: 40px;
+    width: 150px;
+    float: center;
+    margin-left: 65px;
+    margin-top: -20px;
+    border-radius: 25px;
+}
+
+.ExploreTextInsideCircle{
+    position: relative;
+    z-index: 3;
+    float: center;
+    margin-left: 95px;
+    margin-top: -32px;
+    color: white;
+	font-weight: 600;
+}
+
+.ContactUsText{
+	color: #cd2a35;
+	text-align: center;
+	font-weight: 500;
+}
+
+.ContactUsIcons{
+    width: 60px;
+    height: 60px;
+}
+
+.forLeftMargin{
+    margin-left:-70px;
+}
+
+.ContactTextLeft{
+    margin-top: 10px;
+    margin-left: -25px;
+}
+
+.footerContainer{
+    width: 100vw;
+    background-color: #fecacf;
+}
+
+.AllRights{
+    text-align: right;
+}
+
+.FooterHeaders{
+    font-weight: 700;
+}
+
+.FooterContent{
+    font-weight: 500;
+}
